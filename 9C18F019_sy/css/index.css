@@ -1,0 +1,780 @@
+.pt0{
+	padding-top:0px!important;
+}
+.pt5{
+	padding-top:5px!important;
+}
+.pt10{
+	padding-top:10px!important;
+}
+.pt30{
+	padding-top:30px!important;
+}
+.mt0{
+	margin-top:0px!important;
+}
+.mt5{
+	margin-top:5px!important;
+}
+.ml20{
+	margin-left:20px;
+}
+.main {
+    width:985px;
+    height:100%;
+    margin:auto
+}
+.banner {
+    margin:auto;
+    padding:0;
+    width:100%
+}
+.banner img {
+    width:985px;
+    height:60px;
+    margin-bottom:5px;
+}
+.adbanner {
+    margin:auto;
+    width:985px
+}
+.adbanner img {
+    width:985px;
+    height:65px;
+    padding:5px 0 0 0;
+}
+.main_menu {
+    height:40px;
+    margin-bottom:5px
+}
+.menu_box {
+    height:40px;
+    width:120px;
+    float:left;
+    margin-right:5px;
+    position:relative;
+    background-color:#444
+}
+.menu_box div {
+    height:40px;
+    width:120px;
+    background-color:#444
+}
+.menu_box a {
+    display:block;
+    height:40px;
+    width:120px;
+    text-align:center;
+    font:14px/40px Tahoma,'Microsoft Yahei',Simsun;
+    position:absolute;
+    bottom:0;
+    left:0;
+    color:#FFF
+}
+.menu_box a:hover {
+    background-color:#444
+}
+.info {
+    width:985px;
+    margin:auto;
+    padding-top:15px;
+    background-color:#FFF
+}
+.info div {
+    text-align:center;
+    font:14px/40px Tahoma,'Microsoft Yahei',Simsun;
+    font-weight:600;
+    color:red
+}
+.main_top {
+    height:170px;
+    padding:15px 30px;
+    background-color:#FFF
+}
+
+.nav {
+    height: auto;
+	background: #fff;
+}
+.nav .on {
+    background: #e5e5e5 none repeat scroll 0 0;
+    color: #333;
+    font-weight: bold;
+}
+.nav a {
+    background: #49b8cf none repeat scroll 0 0;
+    color: #fff;
+    display: block;
+    float: left;
+    line-height: 30px;
+    margin: 0 .5% .5% .5%;
+    text-align: center;
+    transition: all 0.1s ease 0s;
+    width: 15.6%;
+    font-weight: bold;
+}
+.nav a:hover{ 
+    background:#ff9900;
+	color:#333;
+	font-weight:bold;
+}
+.nav .top1 {
+	width: 24%;
+}
+.nav .top2 {
+	width: 74%;
+}
+.nav .down1 {
+	width: 30%;
+    margin: 10px 10% 0 10%;
+	margin-bottom:10px;
+}
+.nav .down2 {
+	width: 30%;
+    margin: 0 10% 30px 10%;
+    background:#49b8cf;
+}
+.jptj{
+    padding:3px 5px!important;
+}
+
+
+.VIP {
+    padding: 5px 0;
+    width:100%
+}
+.VIP a{
+    display:block;
+    height:30px;
+    width:11.75%;
+    overflow:hidden;
+    background-color:#444;
+    border:1px solid #f1f1f1;
+    float:left;
+    margin:0 5px 5px 0;
+    font:12px/28px Tahoma,'Microsoft Yahei',Simsun;
+    font-weight:bold;
+    color:#fff;
+    background:no-repeat 10px center;
+    background-size:16px 16px;
+    text-align: center;
+}
+
+@media only screen and (max-width:640px) {
+	.VIP a{width:20%;margin:0 10px 5px 5px;}
+}
+
+
+
+
+
+.VIP .hot{
+    background:#229900;
+}
+.VIP .on {
+    background-color:#e5e5e5;
+	color:#333;
+}
+.VIP .type {
+    width:15%；
+}
+.VIP a:hover {
+    background-color:#ff9900;
+	color:#333;
+}
+
+.main_top_12 {
+    font-size:12px;
+    line-height:12px;
+    color:#e6e6e6
+}
+.flash {
+    width:305px;
+    height:187px;
+    float:left;
+    margin-right:5px
+}
+#slider {
+    width:305px;
+    height:170px;
+    background:#FFF;
+    position:relative;
+    margin-bottom:5px
+}
+#slider img {
+    width:305px;
+}
+#slider a:hover img {
+    opacity:.9;
+    filter:alpha(opacity=90)
+}
+#slidre .list {
+    position:absolute;
+    bottom:10px;
+    left:10px
+}
+#slider .list li {
+    float:left;
+    width:8px;
+    height:8px;
+    margin:0 5px 0 0;
+    display:block;
+    background:#444;
+    cursor:pointer
+}
+#slider .list li.on {
+    background:#444
+}
+.notice {
+    width: 100%;
+    height: auto;
+    float: left;
+    border: 1px solid #444;
+    overflow: hidden;
+}
+.notice_big {
+    margin-bottom:5px
+}
+.notice_big_title {
+    font: 14px/25px Tahoma,'Microsoft Yahei',Simsun;
+    font-weight: bold;
+    color: #444;
+    padding: 0 5px;
+}
+.notice_big_words {
+    font-size:12px;
+    color:#777;
+}
+.notice li {
+    height:22px;
+    background:#CF3;
+    list-style-type:none;
+    background:url("../images/dian.png")/*tpa=http://www.mmsedh.net/Home/Tpl/Public/assets/new/images/dian.png*/ no-repeat 10px 10px;
+    text-indent:25px
+}
+.notice a {
+    font:12px/22px Tahoma,'Microsoft Yahei',Simsun;
+    color:#444;
+    letter-spacing:.6px
+}
+.notice li:hover {
+    color:#e01500;
+    background-image:url("../images/dian_hover.png")/*tpa=http://www.mmsedh.net/Home/Tpl/Public/assets/new/images/dian_hover.png*/;
+}
+.main_column {
+    background-color:#fff;
+}
+.tjimg{
+    background-color: #fff;
+    width: 985px;
+}
+.column_bar {
+    height:36px;
+    width:985px
+}
+.column_title {
+    height:36px;
+    width:140px;
+    float:left;
+    background:url("../images/title.png")/*tpa=http://www.mmsedh.net/Home/Tpl/Public/assets/new/images/title.png*//*tpa=http://www.iavdh.com/images/title.png*/;
+    font:14px/30px Tahoma,'Microsoft Yahei',Simsun;
+    font-weight:bold;
+    color:#FFF;
+    text-indent:35px
+}
+.column_words {
+    height:36px;
+    font:12px/40px Tahoma,'Microsoft Yahei',Simsun;
+    text-align:right;
+    padding-right:30px;
+    color:red
+}
+.column_words .more{
+    color: #aaa;
+}
+.web_list {
+    padding: 5px 0;
+    width:100%
+}
+.web_list a {
+    display:block;
+    height:30px;
+    width:11.75%;
+    overflow:hidden;
+    background-color:#f5f5f5;
+    border:1px solid #f1f1f1;
+    float:left;
+    margin:0 5px 5px 0;
+    font:12px/28px Tahoma,'Microsoft Yahei',Simsun;
+    font-weight:bold;
+    color:#333;
+    background:no-repeat 10px center;
+    background-size:16px 16px;
+    text-align: center;
+}
+.tips {
+    padding:5px 1%;
+}
+.tips a {
+    font-weight:bold;
+    width:5.75%;
+	border: 1.5px solid #444;
+}
+.tips_type {
+    padding:5px 1%;
+}
+.tips_type a {
+    font-weight:bold;
+    width:9.45%;
+	border: 1.5px solid #444;
+}
+.web_list a:hover {
+    background-color:#444;
+    border-color:#444;
+    color:#FFF
+}
+.user_list_input{
+
+}
+.user_list{
+    background-color:#fff;
+    height: calc(65vh - 0rem);
+}
+.user_list ul {
+    padding-bottom:20px;
+}
+.user_list li {
+    padding:0 1.5%;
+}
+.user_list a {
+    font-size:10px;
+	line-height:10px;
+	padding-left: 5px;
+}
+.user_main{
+    background-color: #fff;
+    height: calc(70vh - 0rem); 
+}
+.input {
+    display: block;
+    height: 35px;
+    width: 80%;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border:1px solid #444;
+    float: left;
+    font: 12px/32px Tahoma,'Microsoft Yahei',Simsun;
+    font-weight: 400;
+    color: #000;
+    background: no-repeat 10px center;
+    background-size: 15px 15px;
+    text-align: center;
+}
+.button {
+	display: block;
+    height: 35px;
+    width: 20%;
+    overflow: hidden;
+    font-weight: 400;
+    background-size: 15px 15px;
+    text-align: center;
+	font-weight: bold;
+}
+.change {
+    padding:12px 30px;
+    font-size:14px;
+}
+.change span {
+    float:left;
+    color:#999;
+}
+.change ul li {
+    float:left;
+    margin-right:10px;
+    margin-bottom:10px;
+}
+.change ul li img{
+    width: 110px;
+    height: 60px;
+    border: 2px solid #eee;
+    padding:4px;
+}
+.change ul a {
+    color:#06c;
+    font-size:14px;
+}
+.change ul a:hover img{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out 0s;
+}
+.change ul a:hover {
+    color:#36F;
+}
+.topad {
+    display:none
+}
+.topad {
+    width:100%;
+    height:120px;
+    overflow:hidden
+}
+.topad .swiper-container {
+    width:100%;
+    height:120px;
+    overflow:hidden
+}
+.topad .swiper-container .swiper-slide {
+    width:100%;
+    height:120px;
+    overflow:hidden
+}
+.topad .swiper-pagination {
+    text-align:center
+}
+.topad .swiper-pagination .swiper-pagination-bullet {
+    width:15px;
+    height:15px;
+    border-radius:0;
+    background:#fff
+}
+.swiper-slide {
+    display:block;
+    width:100%;
+    height:120px
+}
+.swiper-slide img {
+    width:100%;
+    height:120px
+}
+.tanchu {
+    width:620px;
+    height:220px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    margin-left:-310px;
+    margin-top:-200px;
+    z-index:99999;
+}
+.tanchu div {
+    height:620px;
+    width:220px;
+    position:relative;
+}
+.tanchu .tanchu_b {
+    height:220px;
+    width:620px;
+    position:absolute;
+    left:0;
+    top:0;
+    background:#000;
+    filter:alpha(opacity=40);
+    -moz-opacity:0.4;
+    -khtml-opacity:0.4;
+    opacity:0.4;
+}
+.tanchu .tanchu_box {
+    height:200px;
+    width:600px;
+    position:absolute;
+    left:10px;
+    top:10px;
+    background:#FFF
+}
+.tanchu .tanchu_close {
+    width:600px;
+    height:40px;
+    background:#fafafa;
+    border-bottom:1px solid #f5f5f5;
+    overflow:hidden;
+}
+.tanchu .tanchu_close div {
+    width:0px;
+    height:40px;
+    background:#fce6eb;
+    float:left
+}
+.tanchu .tanchu_close a {
+    display:block;
+    height:40px;
+    width:50px;
+    text-align:center;
+    float:right;
+    line-height:40px;
+    background:#444;
+    color:#FFF;
+}
+.tanchu .tanchu_close a:hover {
+    background:#fc7676
+}
+.tanchu .tanchu_c {
+    height:120px;
+    width:600px;
+    background:#FFF;
+    text-align:center;
+    padding:20px 0
+}
+.play{
+    height:auto;
+    padding: 0 15px;
+    height:40px;
+}
+.play button{
+    height: 40px;
+    overflow: hidden;
+	padding:5px 35px;
+    background-color: #49b8cf;
+    font-weight: bold;
+    color: #000;	
+}
+.topline{
+    border-top: 5px solid #444;
+}
+.web_list_detail{
+    padding: 5px 0;
+    width: 100%;
+	float: left;
+}
+.pic img{
+
+    display: block;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+	padding:0;
+
+}
+.xianlu{
+height:auto;
+padding: 10px;
+height:40px;
+}
+.xianlu a{
+height: 30px;
+    width: auto;
+    overflow: unset;
+    text-align: center;
+    display: block;
+    background-color: #fff;
+    border: 0px solid #ffffff;
+    font: 12px/20px Tahoma,'Microsoft Yahei',Simsun;
+    font-weight: bold;
+    color: #333;
+}
+.xianlu button{
+    height: 30px;
+    overflow: hidden;
+}
+.play_msg{
+    width: 100%;
+    max-width: 100%;
+    min-height: 300px;
+    padding: 10px 5% 10px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 24px;
+    border: 0px solid #444;
+    border-radius: 0px;
+    background: #000;
+    box-sizing: border-box;
+}
+.play_msg .play_text {
+    padding-left: 0px;
+}
+.play_tit {
+    width: 100%;
+    height: 30px;
+    margin: 20px 0 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 5px;
+}
+.play_text a{
+    width:40%;
+	height:40px;
+    border: 1px solid #333;
+    font: 14px/40px Tahoma,'Microsoft Yahei',Simsun;
+	font-weight: bold;
+    background: #49b8cf;
+    margin: 10px 5%;
+    display: block;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+	color: #333;
+	
+}
+.play_text a:hover {
+    background-color:#e5e5e5;
+    border-color:#e5e5e5;
+}
+.links a{
+	width:12%;
+	font-weight:400;
+	height:28px;
+	line-height:28px;
+}
+
+@media only screen and (max-width:640px) {
+    .main {
+    width:100%
+}
+.banner {
+    margin:auto;
+    padding:0;
+    width:100%
+}
+.banner img {
+    width:100%;
+    height:60px
+}
+.adbanner {
+    margin:auto;
+    padding:0px 0 0 0;
+    width:100%
+}
+.adbanner img {
+    width:100%;
+    height:85px
+}
+.main_top {
+    height:160px;
+    padding:10px 0;
+    background-color:#FFF;
+}
+.VIP {
+    width:100%;
+}
+.main_top_12,.main_menu,.flash,.change,.column_words,.web_list a img {
+    display:none
+}
+.nav{
+	height: auto;
+}
+.nav a {
+    margin: .5%;
+	font-size:12px;
+}
+
+
+.main_column {
+    width:100%;
+    background-color:#fff;
+}
+.VIP{
+    height: auto;
+}
+.jptj{
+    padding: 1px .5%!important;
+}
+.column_bar {
+    height:36px;
+    width:100%
+}
+.column_title {
+    height:36px;
+    width:140px;
+    float:left;
+    background:url("../images/title.png")/*tpa=http://www.mmsedh.net/Home/Tpl/Public/assets/new/images/title.png*//*tpa=http://www.iavdh.com/images/title.png*/;
+    font:14px/30px Tahoma,'Microsoft Yahei',Simsun;
+    font-weight:bold;
+    color:#FFF;
+    text-indent:35px
+}
+.web_list {
+    padding: 5px 0px;
+    width:100%
+}
+.web_list a {
+    text-align:center;
+    display:block;
+    height:22px;
+    width:24%;
+    overflow:hidden;
+    background-color:#f5f5f5;
+    border:1px solid #f1f1f1;
+    float:left;
+    margin:0 0 1% 1%;
+    font:10px/22px Tahoma,'Microsoft Yahei',Simsun;
+    font-weight:400;
+    color:#333;
+    background:no-repeat 10px center;
+    background-size:16px 16px
+}
+.tips {
+    padding:5px .5%;
+}
+.tips a {
+    font-weight:bold;
+    width:11.4%;
+    border: 1px solid #444;
+}
+.tips_type {
+    padding:5px .5%;
+}
+.tips_type a {
+    font-weight:bold;
+    width:15.5%;
+	border: 1px solid #444;
+}
+.input {
+    width: 71%;
+    margin: 0 0 0 2%;
+}
+.button {
+    width: 25%;
+}
+.info {
+    width:100%;
+    margin:auto;
+    padding-top:15px;
+    background-color:#FFF
+}
+.info div {
+    text-align:center;
+    font:14px/40px Tahoma,'Microsoft Yahei',Simsun;
+    font-weight:600;
+    color:red
+}
+.notice_big_title {
+    font: 12px/25px Tahoma,'Microsoft Yahei',Simsun;
+    font-weight: bold;
+}
+.web_list_detail{
+    padding: 5px 1%;	
+    width: 100%;
+}
+.play_msg {
+    width: 100%;
+    max-width: 100%;
+    min-height: 300px;
+    padding: 20px 0;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 24px;
+    border: 0px solid #444;
+    border-radius: 0px;
+    background: #000;
+    box-sizing: border-box;
+}
+.play_tit {
+    width: 100%;
+    height: 30px;
+    margin: 20px 0 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    font-family: "é»‘ä½“","microsoft yahei";
+    letter-spacing: 5px;
+}
+.links a{
+	width:20%;
+	height:28px;
+	line-height:28px;
+	font-size:12px;
+    margin: 0;
+}
+
+}

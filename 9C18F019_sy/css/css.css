@@ -1,0 +1,273 @@
+a,abbr,acronym,address,applet,b,big,blockquote,body,caption,center,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,font,form,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,u,ul,var {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    background:0 0;
+}
+body {
+    line-height:1;
+    font-family:Tahoma,'Microsoft Yahei',Simsun
+}
+ol,ul {
+    list-style:none
+}
+blockquote,q {
+    quotes:none
+}
+blockquote:after,blockquote:before,q:after,q:before {
+    content:'';
+    content:none
+}
+:focus {
+    outline:0
+}
+ins {
+    text-decoration:none
+}
+del {
+    text-decoration:line-through
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0
+}
+a:link {
+    text-decoration:none
+}
+a:visited {
+    text-decoration:none
+}
+a:hover {
+    text-decoration:none
+}
+a:active {
+    text-decoration:none
+}
+.header {
+    height:50px;
+    width:100%;
+    z-index:100;
+    background: #444;
+}
+.header_main {
+    width:985px;
+    height:50px;
+    margin:auto;
+    line-height:50px
+}
+.left{
+	width:50%;
+	margin-left:0px;
+	font-size:22px!important;
+	font-weight:bold!important;
+}
+.middle{
+	font-size:14px!important;
+}
+.right{
+	margin-right:5px;
+}
+.logo {
+    display:block;
+    width:60px;
+    height:40px;
+    background:url("../images/logo.png")/*tpa=http://www.mmsedh.net/Home/Tpl/Public/assets/new/images/logo.png*//*tpa=http://www.iavdh.com/images/logo.png*/;
+    margin:5px 10px 5px 0px;
+    float:left
+}
+.font_white {
+    color:#fff;
+    font:14px/50px Tahoma,'Microsoft Yahei',Simsun;
+    line-height:50px;
+    float:left
+}
+.font_whitr {
+    color:#fff;
+    font:14px/50px Tahoma,'Microsoft Yahei',Simsun;
+    line-height:50px;
+    float:left
+}
+.mail {
+    float:right
+}
+.add {
+    display:block;
+    float:right;
+    height:50px;
+    width:80px;
+    text-align:center;
+    margin-left:20px;
+}
+.adds {
+    display:block;
+    float:left;
+    margin-left:60px;
+    height:50px;
+    width:170px;
+    text-align:center
+}
+.header_tj {
+    z-index:10;
+    position:absolute;
+    float:right;
+    top:15px;
+    right:10px
+}
+#nav-plane {
+    position:fixed;
+    top:55px;
+    right:50%;
+    margin-right:495px;
+}
+#nav-plane ul {
+    padding:10px 0;
+    background-color:#444;
+    border-radius:6px 0 0 6px;
+    z-index:999;
+}
+#nav-plane li a {
+    display:inline-block;
+    text-align:center;
+    line-height:40px;
+    width:90px;
+    color:#FFF;
+}
+#nav-plane li a:hover {
+    background-color:#e84840;
+}
+#shortcut-box {
+    position:fixed;
+    z-index:1000;
+    left:50%;
+    margin-left:494px;
+    bottom:60px
+}
+#shortcut-box a {
+    display:block;
+    margin-top:1px;
+    height:50px;
+    width:76px;
+    line-height:50px;
+    color:#FFF;
+    text-align:center;
+    background-color:#444;
+    border-radius:6px;
+    cursor:pointer
+}
+#shortcut-box .qrcode i {
+    display:none;
+    position:absolute;
+    left:-152px;
+    top:0;
+    overflow:hidden;
+    z-index:1000;
+}
+#shortcut-box .qrcode {
+    position:relative;
+}
+#shortcut-box .qrcode img {
+    width:152px;
+    height:152px;
+}
+#shortcut-box .gotop {
+    background:#444 url("../images/top.png")/*tpa=http://www.mmsedh.net/Home/Tpl/Public/assets/new/images/top.png*/// center center no-repeat;
+    z-index:10000;
+}
+#shortcut-box a:hover {
+    background-color:#e84840;
+}
+.info {
+    width:985px;
+    margin:auto;
+    padding-top:15px;
+    background-color:#FFF
+}
+.info {
+    text-align:center;
+    font:14px/40px Tahoma,'Microsoft Yahei',Simsun;
+    font-weight:600;
+    color:red
+}
+.info span {
+    color:#36C;
+}
+#ds-thread {
+    width:905px;
+    padding:10px 40px;
+    background:#FFF
+}
+.bottom {
+    width:985px;
+    padding:5px 0;
+	margin-top:30px;
+    background: #444;
+    text-align:center;
+}
+.bm {
+    margin:10px 0;
+    font-size:14px;
+    font-weight:500;
+    color:#fff;
+    line-height:25px;
+    text-align:center
+}
+.bm a {
+	color:#fff;
+}
+@media only screen and (max-width:640px) {
+.header,.header_main {
+    width:100%;
+}
+.font_whitr,.adds,.mail,#nav-plane {
+    display:none
+}
+.add {
+    display:block;
+    float:right;
+    height:50px;
+    width:75px;
+    text-align:center;
+    margin-left:0px;
+}
+.info {
+    width:100%;
+}
+.ds-thread {
+    width:100%;
+}
+.info {
+    text-align:center;
+    font:14px/40px Tahoma,'Microsoft Yahei',Simsun;
+    font-weight:600;
+    color:red
+}
+.info span {
+    color:#36C
+}
+#ds-thread {
+    width:100%;
+    padding:0;
+    background:#FFF
+}
+.bottom {
+    width:100%;
+    height:auto;
+    border-top:0px solid #111;
+    background-color:#444;
+    text-align:center;
+	padding: 10px 0;
+}
+.bm {
+    margin:10px 2% 10px 2%;
+}
+}
+
+/*分页样式1.85版本*/
+.box-page{margin:20px 0;text-align:center;}
+.box-page ul li{margin-bottom: 15px;display:inline-block;padding:0;margin-left:10px}
+.box-page ul li a{display:inline-block;padding:8px 15px;border-radius:4px;background:#49b8cf;color:#fff;}
+.box-page ul li a:hover{background:#ff9900;}
+.box-page-page-block{padding:30px}
+.modal-body-tab{ display:none}
+.modal-body-tab.active{ display:block}
